@@ -1,0 +1,11 @@
+{
+  "name": "health-records",
+  "version": "1.0.0",
+  "description": "App for recording your current health goals",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hopchenko Oleksii",
+  "license": "ISC"
+}
