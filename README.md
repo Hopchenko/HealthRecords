@@ -1,2 +1,2 @@
 # HealthRecords
-App for recording your health current health goals.
+App for recording your current health goals.
