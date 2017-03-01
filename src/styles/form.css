@@ -1,0 +1,28 @@
+.form {
+    font-size: 0.9rem;
+    border-radius: 1px;
+    width: 350px;
+    border: 1px solid gray;
+    margin: 0 auto 10px auto;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid midnightblue;
+    position: relative;
+}
+.form input:focus{
+    border-color: mediumblue;
+    outline: none;
+}
+
+.form button {
+    margin-top: 10px;
+}
