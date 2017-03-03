@@ -1,0 +1,26 @@
+.authorization-form h1 {
+    user-select: none;
+    font-family: 'Leckerli One', cursive;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.authorization-form input {
+    margin-bottom: 5px;
+}
+
+.registration-link {
+    text-align: center;
+    color: #5a5a5a;
+    margin-top: 10px;
+}
+
+.registration-link a {
+    text-decoration: none;
+}
+
+.authorization-form .btn {
+    margin: 5px 0 10px 0;
+}

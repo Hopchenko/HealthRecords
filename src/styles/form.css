@@ -1,28 +1,12 @@
 .form {
-    font-size: 0.9rem;
-    border-radius: 1px;
+    box-sizing: border-box;
     width: 350px;
-    border: 1px solid gray;
-    margin: 0 auto 10px auto;
-    padding: 30px 50px;
     display: flex;
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    color: #b7b7b7;
     flex-direction: column;
-}
-
-.form input{
-    font-size: 1rem;
-    padding: 5px 10px;
-    margin-bottom: 5px;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid midnightblue;
-    position: relative;
-}
-.form input:focus{
-    border-color: mediumblue;
-    outline: none;
-}
-
-.form button {
-    margin-top: 10px;
+    justify-content: space-around;
+    padding: 45px;
+    margin: 20px;
 }

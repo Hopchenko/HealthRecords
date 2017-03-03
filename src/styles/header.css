@@ -1,0 +1,25 @@
+/*header*/
+
+.header {
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+    height: 100px;
+    background-color: #131317;
+    display: flex;
+    justify-content: center;
+}
+
+.header .logo {
+    align-self: center;
+}
+
+.logo .logo-text {
+    user-select: none;
+    color: #bd935e;
+    font-family: 'Leckerli One', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+/********************************************/

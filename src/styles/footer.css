@@ -1,0 +1,31 @@
+/*Footer*/
+.footer {
+    box-sizing: border-box;
+    background-color: black;
+    padding: 30px;
+}
+
+.author-info {
+    color: #b7b7b7;
+    width: 80%;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    align-self: center;
+    display: flex;
+    align-content: space-between;
+    border-bottom: 2px solid #bd935e;
+}
+
+.author-info div:nth-child(2) {
+    margin: 0 60px;
+}
+
+.author-info div:nth-child(3) {
+    margin-right: 60px;
+}
+
+.footer .design-info {
+    color: #5a5a5a;
+    margin: 20px 0 5px 10%;
+}
+/***********************************************/
