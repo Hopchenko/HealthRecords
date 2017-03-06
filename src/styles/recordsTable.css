@@ -1,0 +1,31 @@
+.records-table {
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.records-table, th, td {
+    border: 1px solid #b7b7b7;
+}
+
+.records-table th {
+    background-color: #f1f1f1;
+}
+
+.records-table th,
+.records-table td {
+    padding: 5px;
+    min-width: 120px;
+    max-width: 140px;
+}
+
+.records-table th:first-child,
+.records-table td:first-child{
+    max-width: 50px;
+    text-align: center;
+}
+
+.records-table td:hover{
+    background-color: #5a5a5a;
+    color: white;
+}

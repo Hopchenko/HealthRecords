@@ -12,3 +12,12 @@
 .authorization-link a {
     text-decoration: none;
 }
+
+
+.registration-form .btn {
+    margin: 5px 0 10px 0;
+}
+
+.registration-form input {
+    margin-bottom: 5px;
+}

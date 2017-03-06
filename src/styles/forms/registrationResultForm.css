@@ -1,0 +1,26 @@
+.registration-result-form{
+    color: #5a5a5a;
+    width: 500px;
+}
+
+.registration-result-form .btn {
+    margin-top: 5px;
+}
+
+.result-name,
+.registration-result-form div {
+    margin-bottom: 5px;
+}
+
+.registration-result-form input:not(.result-name) {
+    width: 200px;
+}
+
+.registration-result-form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.registration-result-form label{
+    align-self: center;
+}
