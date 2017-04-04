@@ -1,0 +1,12 @@
+@mixin default-shadow {
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+@mixin rounded-border($color: $soft-grey) {
+  border: 1px solid $color;
+  border-radius: 3px;
+}
+
+@mixin border-bottom-hr($color:$blue) {
+  border-bottom: 2px solid $color;
+}

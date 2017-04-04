@@ -1,0 +1,18 @@
+header {
+  align-items: center;
+  background-color: black;
+  cursor: default;
+  display: flex;
+  font-family: 'Leckerli one', cursive;
+  justify-content: center;
+  height: 100px;
+  margin: $standart-indent 0;
+
+  @include default-shadow;
+
+  h1{
+    color: $blue;
+    font-size: 3rem;
+    user-select: none;
+  }
+}

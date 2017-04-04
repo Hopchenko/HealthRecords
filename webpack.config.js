@@ -3,7 +3,7 @@ let webpack = require("webpack");
 
 module.exports = {
 	entry: {
-		app: ["./src/app/app"]
+		app: ["./src/app/app.module"]
 	},
 	output: {
 		path: path.resolve(__dirname, "build"),

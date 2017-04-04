@@ -1,0 +1,32 @@
+
+footer {
+  background-color: black;
+  color: $soft-grey;
+  display: flex;
+  flex-direction: column;
+  padding: $standart-indent 10%;
+
+  @include default-shadow;
+
+  .menu {
+    padding: $standart-indent;
+    width: 150px;
+    @include border-bottom-hr;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li:before {
+      content: "• ";
+      color: $blue;
+    }
+  }
+
+  .author {
+    margin-top: $standart-indent;
+    font-size: smaller;
+  }
+}

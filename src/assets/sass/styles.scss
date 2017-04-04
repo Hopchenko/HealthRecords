@@ -1,0 +1,19 @@
+body {
+  font-family: 'Open sans', sans-serif;
+  font-size: 16px;
+  display: flex;
+  height: 100vh;
+  min-height: 100%;
+  min-width: 576px; //mobile divices
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+//partials
+@import "partials/_variables";
+@import "partials/_mixins";
+
+//components
+@import "components/header";
+@import "components/footer";
+@import "components/elements";
