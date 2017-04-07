@@ -1,18 +1,12 @@
+angular.module('healthRecords.routes', ['ui.router'])
 
+	.config(($stateProvider, $urlRouterProvider) => {
 
-healthRecords.config(($stateProvider) => {
-	var helloState = {
-		name: 'hello',
-		url: '/hello',
-		template: '<h3>hello world!</h3>'
-	}
+		$urlRouterProvider.otherwise('/registration');
 
-	var aboutState = {
-		name: 'about',
-		url: '/about',
-		template: '<h3>Its the UI-Router hello world app!</h3>'
-	}
-	$stateProvider.state(helloState);
-	$stateProvider.state(aboutState);
-});
-let routes = sta
+		$stateProvider
+			.state('registration', {
+				url: '/registration',
+				component: 'registration'
+			})
+	});

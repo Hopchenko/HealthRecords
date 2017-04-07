@@ -1,6 +1,6 @@
 header {
   align-items: center;
-  background-color: black;
+  background-color: $main-theme-grey;
   cursor: default;
   display: flex;
   font-family: 'Leckerli one', cursive;
@@ -11,7 +11,7 @@ header {
   @include default-shadow;
 
   h1{
-    color: $blue;
+    color: $gold;
     font-size: 3rem;
     user-select: none;
   }

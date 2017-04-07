@@ -1,11 +1,11 @@
 
 footer {
-  background-color: black;
+  background-color: $main-theme-grey;
   color: $soft-grey;
   display: flex;
   flex-direction: column;
   padding: $standart-indent 10%;
-
+  margin-top: $standart-indent;
   @include default-shadow;
 
   .menu {
@@ -21,7 +21,10 @@ footer {
 
     li:before {
       content: "• ";
-      color: $blue;
+      color: $gold;
+    }
+    &::before {
+      background: $gold;
     }
   }
 
@@ -29,4 +32,5 @@ footer {
     margin-top: $standart-indent;
     font-size: smaller;
   }
+
 }

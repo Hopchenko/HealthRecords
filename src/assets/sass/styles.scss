@@ -6,14 +6,18 @@ body {
   min-height: 100%;
   min-width: 576px; //mobile divices
   flex-direction: column;
-  justify-content: space-between;
+
+  .application{
+    margin: 0 10%;
+    flex-grow: 1;
+  }
 }
 
-//partials
-@import "partials/_variables";
-@import "partials/_mixins";
+//_partials
+@import "_partials/_variables";
+@import "_partials/_mixins";
 
-//components
-@import "components/header";
-@import "components/footer";
-@import "components/elements";
+//_components
+@import "_components/header";
+@import "_components/footer";
+@import "_components/elements";

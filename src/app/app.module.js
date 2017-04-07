@@ -3,9 +3,18 @@ import '../assets/sass/styles.scss';
 import '../../node_modules/hover.css/scss/hover.scss';
 
 import angular from 'angular';
-import 'angular-ui-router';
-import './app.routes';
+import uiRouter from 'angular-ui-router';
 
-let healthRecords = angular.module('healthRecords', ['ui.router']);
+//Components
+import './components/RegistrationComponent/registration.module';
+import './components/AuthorizationComponent/authorization.module';
 
-export default healthRecords;
+let app = angular.module('healthRecords', [
+	'ui.router',
+	'healthRecords.routes',
+
+	//Components
+	'healthRecords.registration',
+	'healthRecords.authorization',
+]);
+

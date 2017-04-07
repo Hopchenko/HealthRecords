@@ -7,6 +7,6 @@
   border-radius: 3px;
 }
 
-@mixin border-bottom-hr($color:$blue) {
+@mixin border-bottom-hr($color:$gold) {
   border-bottom: 2px solid $color;
 }

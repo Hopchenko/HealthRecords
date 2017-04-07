@@ -3,7 +3,10 @@ let webpack = require("webpack");
 
 module.exports = {
 	entry: {
-		app: ["./src/app/app.module"]
+		app: [
+			"./src/app/app.module",
+			"./src/app/app.routes"
+		]
 	},
 	output: {
 		path: path.resolve(__dirname, "build"),
@@ -20,6 +23,15 @@ module.exports = {
 					loader: "css-loader" // translates CSS into CommonJS
 				}, {
 					loader: "sass-loader" // compiles Sass to CSS
+				}]
+			},
+			{
+				test: /\.html$/,
+				use: [{
+					loader: 'html-loader',
+					options: {
+						minimize: true
+					}
 				}]
 			},
 			{
@@ -51,7 +63,7 @@ module.exports = {
 				loader: 'url?limit=10000&mimetype=image/svg+xml'
 			},
 			{
-				test: /\.js$/,
+				test: /\.jsx?$/,
 				exclude: /(node_modules|bower_components)/,
 				use: {
 					loader: 'babel-loader',

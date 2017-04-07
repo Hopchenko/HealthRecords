@@ -1,0 +1,20 @@
+const registrationTemplate =
+	`<div >
+		<h1>Healthy</h1>
+		<h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, culpa debitis
+			dolores dolorum eius
+			necessitatibus officiis similique sunt. Accusantium, dolorum maiores odit possimus quia quibusdam
+			reiciendis
+			veritatis. Dolores fuga, odit?</h2>
+		<input class="input" type="text" placeholder="Имя и фамилия"/>
+		<input class="input" type="email" placeholder="Электронная почта"/>
+		<input class="input" type="password" placeholder="Пароль"/>
+		<input class="input" type="password" placeholder="Повторите пароль"/>
+		<button class="btn" type="submit">Регистрация</button>
+		<hr/>
+		<div >
+			<p>Уже зарегистрированы?<a href="#"> Войдите</a></p>
+		</div>
+	</div>`;
+
+export default registrationTemplate;
