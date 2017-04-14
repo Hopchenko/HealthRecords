@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/sass/styles.scss';
 import '../../node_modules/hover.css/scss/hover.scss';
 
+
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 

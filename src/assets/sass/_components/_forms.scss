@@ -1,0 +1,8 @@
+.authorization-form,
+.registration-form {
+  margin: $form-indent;
+  .form-control:active,
+  .form-control:focus {
+    border-color: $gold;
+  }
+}

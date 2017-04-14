@@ -6,22 +6,20 @@
     <title>Health records</title>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans|Leckerli+One" rel="stylesheet">
 </head>
-<body>
+<body ng-app="healthRecords">
 <header>
     <h1 class="app-logo">Health Records</h1>
 </header>
 
-<main ng-app="healthRecords" class="container application">
-
+<main class="container application">
+    <ui-view></ui-view>
 </main>
 
 <footer>
     <div class="menu hvr-sweep-to-right">
         <ul>
-            <li class="hvr-grow-rotate">Main</li>
-            <li class="hvr-grow-rotate">Author</li>
-            <li class="hvr-grow-rotate">Login</li>
-            <li class="hvr-grow-rotate">Logout</li>
+            <li class="hvr-grow-rotate" ui-sref="authorization">Registration</li>
+            <li class="hvr-grow-rotate" ui-sref="registration">Authorization</li>
             <li class="hvr-grow-rotate">Feedback</li>
         </ul>
     </div>
@@ -30,5 +28,6 @@
 
 <!--Application-->
 <script src="/assets/bundle.js"></script>
+
 </body>
 </html>

@@ -2,13 +2,11 @@ body {
   font-family: 'Open sans', sans-serif;
   font-size: 16px;
   display: flex;
-  height: 100vh;
-  min-height: 100%;
+  min-height: 100vh;
   min-width: 576px; //mobile divices
   flex-direction: column;
 
   .application{
-    margin: 0 10%;
     flex-grow: 1;
   }
 }
@@ -21,3 +19,4 @@ body {
 @import "_components/header";
 @import "_components/footer";
 @import "_components/elements";
+@import "_components/forms";
