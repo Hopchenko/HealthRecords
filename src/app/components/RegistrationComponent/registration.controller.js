@@ -1,12 +1,7 @@
-import checkInputStyle from './../../shared/checkInputStyle';
+import checkAndSetInputStyle from '../../shared/checkAndSetInputStyle';
 
 export default function registrationController() {
 	this.user = {};
-	let that = this;
 
-	this.register = function () {
-		console.log(that.user);
-	};
-
-	this.checkInputStyle = checkInputStyle;
+	this.checkAndSetInputStyle = checkAndSetInputStyle;
 }

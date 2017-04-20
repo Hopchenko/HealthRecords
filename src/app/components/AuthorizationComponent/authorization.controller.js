@@ -1,4 +1,4 @@
-import checkInputStyle from './../../shared/checkInputStyle';
+import checkAndSetInputStyle from './../../shared/checkAndSetInputStyle';
 
 export default function authorizationController() {
 	this.user = {};
@@ -8,5 +8,6 @@ export default function authorizationController() {
 		console.log(that.user.email);
 		console.log(that.user.password);
 	};
-	this.checkInputStyle = checkInputStyle;
+
+	this.checkAndSetInputStyle = checkAndSetInputStyle;
 }
